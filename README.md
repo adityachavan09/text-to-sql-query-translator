@@ -59,10 +59,10 @@ Find the total sales by each salesperson in 2023.
 
 ### Generated SQL Query:
 
-SELECT salesperson, SUM(sales) AS total_sales
-FROM sales_table
-WHERE YEAR(sale_date) = 2023
-GROUP BY salesperson;
+SELECT salesperson, SUM(sales) AS total_sales  
+FROM sales_table  
+WHERE YEAR(sale_date) = 2023  
+GROUP BY salesperson;  
 
 Customization
 
