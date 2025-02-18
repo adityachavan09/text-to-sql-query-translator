@@ -64,7 +64,7 @@ FROM sales_table
 WHERE YEAR(sale_date) = 2023  
 GROUP BY salesperson;  
 
-Customization
+## Customization
 
 Model Fine-Tuning: If using a machine learning model, you can fine-tune it with your specific database queries for better accuracy.
 
